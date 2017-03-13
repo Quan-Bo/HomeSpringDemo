@@ -1,0 +1,112 @@
+body{
+	background-image: url(../picture/2.jpg);
+	background-size: cover;
+}
+.login{
+	width:1000px;
+	height:400px;
+	margin:100px auto;
+	border:1px;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 1px;
+	position:relative;
+	color:#fff;
+}
+.regedit{
+	width:1000px;
+	height:800px;
+	margin:0 auto;
+	border:1px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 1px;
+	position:relative;
+}
+.rightpic{
+	width:500px;
+	height:450px;
+	position:absolute;
+	right:30px;
+	top:30px;
+	opacity: 0.8;
+}
+.regeditMain{
+	width:700px;
+	height:700px;
+	margin:20px auto;
+	border: solid red 1px;
+	padding: 1px;
+}
+#container{	
+	position: relative;
+	width:500px;
+	height:330px;
+}
+canvas{ position: absolute;
+ 		backface-visibility: hidden; 
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+	 	-ms-backface-visibility: hidden;
+}
+img {
+	 position: absolute;
+	 -webkit-transition: opacity .3s;
+	  transition: opacity .3s;
+}
+.text{
+	margin-left: 110px;
+	color: red;
+}
+.rg-1{
+	float: left;
+	margin-left: 80px;
+}
+.rg-2{
+	float: left;
+	width: 250px;
+}
+
+.rg-3{
+	margin-top: -15px;
+	width: 400px;
+	height:50px;
+	line-height: 50px;
+}
+.rg-4{
+	float: left;
+}
+.rg-5{
+	height: 30px;;
+	width: 50%;
+	margin-left: 160px;
+}
+.rg-6{
+	 display:inline-block;
+	 margin-left: 50px;
+	 width: 70px;
+}
+.rg-7{
+	width:250px;
+	float:left;
+	margin-left: 20px;
+}
+.sp-1{
+	float: left;
+	font-color:#BBBBBB;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: 'ËÎÌו';
+
+}
+.cl-1{
+	width: 550px;
+}
+.t-im-1{
+	
+	width:200px;
+	float:left;
+}
+
+.tb{
+	width:680px;
+	margin-left:20px;
+}

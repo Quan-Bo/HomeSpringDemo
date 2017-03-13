@@ -1,0 +1,21 @@
+body{
+background-color: #CEE0F2;
+margin: 0px;
+padding: 0px;
+}
+#main{
+width: 520px;
+height: 400px;
+margin: 50px auto;
+border: 1px solid red;
+}
+#img{
+	width: 500px;
+	height: 330px;
+    margin: 10px;
+}
+#span1{
+	width: 	100px;
+	height: 50px;
+	margin: 460px;
+}

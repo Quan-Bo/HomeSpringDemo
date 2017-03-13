@@ -1,0 +1,49 @@
+body{
+	background-image: url("../Image/1.jpg");
+	background-size: cover;
+	font-size: 20px;
+}
+class
+.div_main_background{
+	width: 1000px;
+	min-height: 450px;
+	margin: 30px auto;
+	border: 1px;
+	padding: 1px;
+	background-color: rgba(0,0,0,0.3);
+}
+.div_min{
+	width: 800px;
+	min-height: 450px;
+	margin:25px auto;
+	border: 1px solid #EDED6F;
+}
+table caption,table th,table td{
+	text-align: center;
+} 
+.form_lb_1{
+	margin-top: 3px; 
+	float: left;
+	width:100px;
+	text-align: center;
+}
+.form_ip_1{
+	float: left;
+	width: 300px;
+}
+.div_mean{
+	margin: 70px auto;
+	width: 450px;
+	height: 300px;
+}
+.div_group{
+	height: 60px;
+}
+.form_select{
+	margin-left:-50px;
+	width: 300px;
+}
+.rg-4{
+	float:left;
+	margin-left:100px;
+}
