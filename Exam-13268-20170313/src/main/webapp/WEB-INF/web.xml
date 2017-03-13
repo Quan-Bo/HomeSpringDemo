@@ -4,6 +4,16 @@
 
 <web-app id="WebApp_1489372944557">
   <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<filter-name>MyFilter</filter-name>
+  	<display-name>MyFilter</display-name>
+  	<description></description>
+  	<filter-class>com.filter.MyFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>MyFilter</filter-name>
+  	<url-pattern>/MyFilter</url-pattern>
+  </filter-mapping>
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
     <display-name>This is the display name of my J2EE component</display-name>

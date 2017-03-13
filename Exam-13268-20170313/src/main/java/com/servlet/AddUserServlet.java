@@ -19,7 +19,11 @@ public class AddUserServlet extends HttpServlet {
 		user.setDescription(request.getParameter("description"));
 		user.setLanguage_id(Integer.valueOf(request.getParameter("language")));
 		Boolean flag=UserDao.Add_User(user);
-		System.out.println(flag);
+		if(flag){
+			request.getRequestDispatcher("ShowUser.jsp").forward(request, response);
+		}else{
+			request.getRequestDispatcher("ShowUser.jsp").forward(request, response);
+		}
 	}
 
 }

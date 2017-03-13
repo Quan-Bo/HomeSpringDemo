@@ -3,6 +3,7 @@
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
 			+ path + "/";
+			String error=(String)request.getAttribute("falgErrot");
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -26,6 +27,7 @@
 <body>
 	<div class="div_main_background">
 		<!-- 透明区域 -->
+		<span><% %></span>
 		<div class="div_min">
 			<ul class="nav nav-tabs">
 				<li class="active"><a href="#">Home</a></li>
